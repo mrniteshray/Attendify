@@ -98,5 +98,5 @@ EduTech
 ### Steps
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/[your-username]/ai-attendance-app.git
-   cd ai-attendance-app
+   git clone https://github.com/mrniteshray/Attendify.git
+   cd Attendify
