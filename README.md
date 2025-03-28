@@ -8,12 +8,6 @@ Welcome to the **Hackverse 2025** project by **The Debugging Squad**! This is an
 
 The **AI-Powered Attendance Marking & Parent Notification App** eliminates manual attendance efforts, prevents proxy attendance, and provides actionable insights through AI-driven analytics. It uses triple-layered authentication (QR Code, Face Recognition, and Geofencing) and integrates WhatsApp for instant alerts to parents and faculty.
 
-### Team: The Debugging Squad
-- **Nitesh Ray**
-- **Shreya Deore**
-- **Varshada Kothawade**
-- **Rahul Ahir**
-
 ### Domain
 EduTech
 
