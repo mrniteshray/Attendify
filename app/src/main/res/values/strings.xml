@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Attendify</string>
+    <string name="open">Open navigation drawer</string>
+
+    <!-- Navigation Drawer Close -->
+    <string name="close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

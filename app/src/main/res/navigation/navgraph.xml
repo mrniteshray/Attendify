@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/loadingFragment">
+
+    <fragment
+        android:id="@+id/loadingFragment"
+        android:name="xcom.niteshray.apps.attendify.helper.LoadingFragment"
+        android:label="fragment_loading"
+        tools:layout="@layout/fragment_loading" >
+        <action
+            android:id="@+id/action_loadingFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_loadingFragment_to_facultyFragment"
+            app:destination="@id/facultyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="xcom.niteshray.apps.attendify.home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <argument
+        android:name="user"
+        app:argType="xcom.niteshray.apps.attendify.Model.user" />
+    </fragment>
+    <fragment
+        android:id="@+id/facultyFragment"
+        android:name="xcom.niteshray.apps.attendify.Faculty.FacultyFragment"
+        android:label="fragment_faculty"
+        tools:layout="@layout/fragment_faculty" >
+        <action
+            android:id="@+id/action_facultyFragment_to_sessionFragment"
+            app:destination="@id/sessionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sessionFragment"
+        android:name="xcom.niteshray.apps.attendify.Faculty.SessionFragment"
+        android:label="fragment_session"
+        tools:layout="@layout/fragment_session" >
+        <argument
+            android:name="Session"
+            app:argType="xcom.niteshray.apps.attendify.Model.AttendanceSession" />
+    </fragment>
+</navigation>

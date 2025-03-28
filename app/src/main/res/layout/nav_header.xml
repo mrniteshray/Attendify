@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/bg">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/header_profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/header_Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nitesh Ray"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"/>
+</LinearLayout>
