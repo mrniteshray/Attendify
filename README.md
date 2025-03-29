@@ -3,7 +3,9 @@
 
 The **AI-Powered Attendance Marking & Parent Notification App** eliminates manual attendance efforts, prevents proxy attendance, and provides actionable insights through AI-driven analytics. It uses triple-layered authentication (QR Code, Face Recognition, and Geofencing) and integrates WhatsApp for instant alerts to parents and faculty.
 
-# Demo : https://youtu.be/kkn4B-wazqk?si=FVWe8R9tiB77QA33
+## Project Demo  
+🎥 [Watch Video](https://www.youtube.com/watch?v=kkn4B-wazqk)
+
 
 ### Domain
 EduTech
