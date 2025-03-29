@@ -1,12 +1,9 @@
 # AI-Powered Attendance Marking & Parent Notification App
-
-Welcome to the **Hackverse 2025** project by **The Debugging Squad**! This is an innovative EduTech solution designed to ensure secure, proxy-proof attendance tracking with real-time notifications for parents and faculty. Built during the **CSI 5 WIET Hackathon**, this app leverages AI, QR codes, face recognition, and geofencing to modernize attendance systems.
-
----
-
 ## Project Overview
 
 The **AI-Powered Attendance Marking & Parent Notification App** eliminates manual attendance efforts, prevents proxy attendance, and provides actionable insights through AI-driven analytics. It uses triple-layered authentication (QR Code, Face Recognition, and Geofencing) and integrates WhatsApp for instant alerts to parents and faculty.
+
+#Demo : https://youtu.be/kkn4B-wazqk?si=FVWe8R9tiB77QA33
 
 ### Domain
 EduTech
